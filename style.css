@@ -1,0 +1,44 @@
+  body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .stephan-container  {
+    
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom, #121212, #f3f3f3);
+  }
+
+  .stephan-wrapper {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    box-shadow: 2px 2px 3px 3px;
+  }
+  .stephan {
+    width: 12rem;
+    height: 12rem;
+    border-radius: 50%;
+    background-color: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    border: 5px solid black;
+    cursor: pointer;
+    transition: .2s;
+    box-shadow: 1px 1px 3px 3px;
+  }
+  
+  .stephan.clicked {
+    transition: .2s;
+    box-shadow: 0 0 0 0;
+  }
